@@ -1,1 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: montserrat;
+    scroll-behavior: smooth;
+    background-color: rgb(27, 25, 25);
+}
+
+.login-form {
+    border: solid none;
+    border-radius: 15px;
+    width: 30vw;
+    height: 50vh;
+    background-color: rgb(68, 64, 64);
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    display: block;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.form-content {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+input {
+    border-radius: 10px;
+    height: 4.5vh;
+    width: 20vw;
+}
+
+#username-input label {
+    position: absolute;
+    top: 28%;
+    left: 18%;
+}
+
+#password-input label {
+    position: absolute;
+    top: 52%;
+    left: 18%;
+}
+
+#btn {
+    font-size: 25px;
+    width: 10vw;
+    border-radius: 10px;
+}
+
+#btn-link {
+    color: black;
+}
