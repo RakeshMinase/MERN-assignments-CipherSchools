@@ -15,19 +15,19 @@ body {
 .login-form {
     border: solid none;
     border-radius: 15px;
-    width: 30vw;
+    width: 50vw;
     height: 50vh;
     background-color: rgb(68, 64, 64);
     position: fixed;
     top: 20%;
-    left: 35%;
+    left: 25%;
     display: block;
 }
 
 h3 {
     text-align: center;
     margin-top: 40px;
-    font-size: 35px;
+    font-size: 3vw;
     text-decoration: underline;
 }
 
@@ -40,27 +40,33 @@ h3 {
 input {
     border-radius: 10px;
     height: 4.5vh;
-    width: 20vw;
+    width: 25vw;
 }
 
 #username-input label {
     position: absolute;
-    top: 28%;
-    left: 18%;
+    font-size: 2vw;
 }
 
 #password-input label {
     position: absolute;
-    top: 52%;
-    left: 18%;
+    font-size: 2vw;
 }
 
 #btn {
-    font-size: 25px;
+    font-size: 2vw;
     width: 10vw;
     border-radius: 10px;
 }
 
 #btn-link {
     color: black;
+}
+
+@media(max-width:860px) {
+    input {
+        border-radius: 10px;
+        height: 4vh;
+        width: 40vw;
+    }
 }

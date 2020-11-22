@@ -220,10 +220,14 @@ a.nav-link:hover:before {
     padding-top: 5vw;
 }
 
+.project-text {
+    font-size: 1vw;
+}
+
 .diff-proj {
     border: solid white;
     width: 30vw;
-    height: 40vh;
+    height: 25vw;
     margin: 2vw 35vw;
     padding: 5vw;
     background-color: rgb(0, 0, 0);
@@ -270,7 +274,7 @@ a.nav-link:hover:before {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background-color: rgba(148, 33, 33, 0.75);
+        background-color: rgb(53, 44, 44);
         top: 80px;
         left: -100%;
         text-align: center;
