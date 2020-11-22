@@ -220,10 +220,6 @@ a.nav-link:hover:before {
     padding-top: 5vw;
 }
 
-.project-text {
-    font-size: 1vw;
-}
-
 .diff-proj {
     border: solid white;
     width: 30vw;
@@ -238,6 +234,10 @@ a.nav-link:hover:before {
     font-size: 3vw;
     color: white;
     color: yellow;
+}
+
+.project-text {
+    font-size: 1vw;
 }
 
 #bottom-page {
